@@ -10,6 +10,9 @@ function App() {
         <p>
           Hello world from React
         </p>
+        <p>
+          This is going to be the spendify app
+        </p>
       </header>
     </div>
   );
