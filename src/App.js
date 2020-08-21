@@ -8,9 +8,6 @@ function App() {
         <p>
           Hello world from React
         </p>
-        <p>
-          I need to finish my CI/CD pipeline
-        </p>
       </header>
     </div>
   );
