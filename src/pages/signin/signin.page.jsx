@@ -1,9 +1,17 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+
+//Styles
+import useStyles from './signin.styles';
 
 const Signin = () => {
+
+  const classes = useStyles();
+
   return(
-    <Button color="primary" >Signin Component</Button>
+    <Grid className={classes.container} container direction="column">
+      Hola Mundo
+    </Grid>
   )
 };
 
