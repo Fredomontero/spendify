@@ -8,10 +8,28 @@ export default makeStyles((theme) => ({
     backgroundColor: "#007aa5"
   },
   signinFormContainer: {
-    backgroundColor: "#f8f8ff",
-    width: "20%",
-    height: "50vh",
-    marginTop: "25vh",
-    marginLeft: "40%"
-  }
+    backgroundColor: "#f0f8ff",
+    width: "22%",
+    height: "60vh",
+    marginTop: "20vh",
+    marginLeft: "39vw",
+    padding: "20px"
+  },
+
+  signinInput: {
+    marginTop: "15px",
+    marginBottom: "15px",
+  },
+  customButton: {
+    backgroundColor: "#50c878",
+    color: "#fff",
+    padding: "15px",
+    textAlign: "center",
+    marginTop: "15px",
+    cursor: "pointer"
+  },
+  greeting: {
+    marginTop: "25px",
+    fontSize: "35px"
+  },
 }));
