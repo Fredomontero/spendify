@@ -7,7 +7,7 @@ import Login from '../../pages/login/login.page';
 const Router = () => {
 	return(
 		<BrowserRouter>
-			<Route path="/" component={Signin}/>
+			<Route exact path="/" component={Signin}/>
 			<Route path='/login' component={Login} />
 		</BrowserRouter>
 	)
